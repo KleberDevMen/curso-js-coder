@@ -21,3 +21,5 @@ Contexto de execução
 
     Node
         - cada arquivo é um modulo diferente (this === module.exports)
+
+etc.
