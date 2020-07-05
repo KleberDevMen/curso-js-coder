@@ -13,12 +13,15 @@ function seForVerdadeEuFalo(valor) {
     }
 }
 
+// false
 seForVerdadeEuFalo()
 seForVerdadeEuFalo(null)
 seForVerdadeEuFalo(undefined)
 seForVerdadeEuFalo(NaN)
 seForVerdadeEuFalo('')
 seForVerdadeEuFalo(0)
+
+// true
 seForVerdadeEuFalo(-1)
 seForVerdadeEuFalo(' ')
 seForVerdadeEuFalo('?')
