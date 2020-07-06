@@ -13,6 +13,16 @@ Ternários
     
     Tente usar num1++ (evite ++num1)
 
+Estritamente igual
+
+    via de regra, use o estritamento igual (===)
+
+- igual (valor)
+>console.log('01)', '1' == 1) // true
+- extritamente igual (tipo e valor)
+>console.log('02)', '1' === 1) // false
+
+
 Contexto de execução
 
     Broswer
@@ -22,4 +32,7 @@ Contexto de execução
     Node
         - cada arquivo é um modulo diferente (this === module.exports)
 
-etc.
+#### Funções
+
+Função é vista como dado!\
+

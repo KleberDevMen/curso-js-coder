@@ -1,3 +1,5 @@
+// Callback: "Chamar de volta"
+
 const fabricantes = ["Mercedes", "Audi", "BMW"]
 
 function imprimir(nome, indice) {

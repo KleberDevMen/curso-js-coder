@@ -1,6 +1,8 @@
 // Função em JS é First-Class Object (Citizens)
 // Higher-order function
 
+// Função como dado
+
 // criar de forma literal
 function fun1() { }
 

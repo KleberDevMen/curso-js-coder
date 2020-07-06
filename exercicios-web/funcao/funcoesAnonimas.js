@@ -1,3 +1,5 @@
+// Basicamente funcoes que nao tem nomes.
+
 const soma = function (x, y) {
     return x + y
 }
