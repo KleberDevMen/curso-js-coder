@@ -1,3 +1,4 @@
+// Funcao contrutora
 function Pessoa(nome) {
     this.nome = nome
     

@@ -34,5 +34,5 @@ Contexto de execução
 
 #### Funções
 
-Função é vista como dado!\
+Função é vista como dado!
 
