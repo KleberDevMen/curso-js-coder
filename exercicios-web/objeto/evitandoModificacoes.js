@@ -1,7 +1,8 @@
-// Object.preventExtensions
-const produto = Object.preventExtensions({
+// Impede a inserção de novos atributos (Object.preventExtensions)
+const produto = Object.preventExtensions({ 
     nome: 'Qualquer', preco: 1.99, tag: 'promoção'
 })
+// verifica se é possivel inserir novos atributos nesse objeto
 console.log('Extensível:', Object.isExtensible(produto))
 
 produto.nome = 'Borracha'
@@ -9,7 +10,8 @@ produto.descricao = 'Borracha escolar branca'
 delete produto.tag
 console.log(produto)
 
-// Object.seal
+// Selar: voce nao consegue adicionar nem excluir attr 
+//      mas consegue modificar eles (Object.seal)
 const pessoa = { nome: 'Juliana', idade: 35 }
 Object.seal(pessoa)
 console.log('Selado:', Object.isSealed(pessoa))
@@ -19,4 +21,4 @@ delete pessoa.nome
 pessoa.idade = 29
 console.log(pessoa)
 
-// Object.freeze = selado + valores constantes
+// (Object.freeze) = selado + valores constantes
