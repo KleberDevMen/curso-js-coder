@@ -1,3 +1,6 @@
+// prefira sempre usar o module.exports para
+//      exportar coisas.
+
 console.log(module.exports)
 console.log(module.exports === this)
 console.log(module.exports === exports)

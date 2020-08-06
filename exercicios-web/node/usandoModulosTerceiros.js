@@ -1,2 +1,2 @@
 const _ = require('lodash')
-setInterval(() => console.log(_.random(50, 60)), 2000)
+setInterval(() => console.log(_.random(5, 10)), 2000)

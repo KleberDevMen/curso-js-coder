@@ -1,4 +1,4 @@
-// middleware pattern (chain of responsibility)
+// middleware pattern (chain of responsibility = cadeia de responsabilidades)
 const passo1 = (ctx, next) => {
     ctx.valor1 = 'mid1'
     next()
